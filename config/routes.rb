@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   # get("/movies", controller: "movies", action: "index")
   get "/movies" => "movies#index"
   #get("/movies/:id", controller: "movies", action: "show")
-  get "/movies/:id" => "movies#show", as: :details
+  get "/movies/:id" => "movies#show", as: :movie
   
   # UPDATE
   #patch("/movies/:id", controller: "movies", action: "update")
